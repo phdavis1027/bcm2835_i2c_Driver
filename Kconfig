@@ -1,0 +1,6 @@
+config BCM2835_I2C_DRIVER
+	bool "Connect to BCM2835's on-chip 3 I2C-compliant Broadcom Serial Controllers"
+	default n
+	depends on GPIO
+	help
+		I2C driver for BCM2835 (SoC used in Pi 4 Model B)

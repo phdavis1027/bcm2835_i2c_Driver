@@ -1,0 +1,3 @@
+description: "BSC Driver for BCM2835"
+compatible: "broadcom,bcm2835"
+include: [i2c-controller.yaml]
